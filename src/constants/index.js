@@ -1,25 +1,25 @@
 import {
-  c,
-  python,
-  java,
-  cpp,
+  GATEWAY,
+  FOOD,
+  XOXO,
+  INVESTMENTCALCULATER,
+  PLACEPICKER,
+  NEWSAPP,
+  TECHQUIZ,
+  js,
+  mySQL,
+  tail,
+  sql,
+  react,
   javascript,
   html,
   css,
   reactjs,
   tailwind,
-  nodejs,
   git,
-  edunet,
-  weatherpedia,
-  termpw,
-  payloadmaster,
-  threejs,
-  mhft,
-  sketcher,
-  mathwork,
-  CompileVortex,
-  eduskill,
+  GWT,
+  LD,
+  ATS
 } from "../assets";
 
 export const navLinks = [
@@ -38,10 +38,10 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "C", icon: c },
-  { title: "C++", icon: cpp },
-  { title: "Python", icon: python },
-  { title: "Java", icon: java },
+  { title: "JS", icon: js },
+  { title: "React", icon: react },
+  { title: "SQL", icon: sql },
+  { title: "Tailwind", icon: tail },
 ];
 
 export const technologies = [
@@ -50,121 +50,142 @@ export const technologies = [
   { name: "JavaScript", icon: javascript },
   { name: "Rect JS", icon: reactjs },
   { name: "Tailwind CSS", icon: tailwind },
-  { name: "Node JS", icon: nodejs },
-  { name: "Three JS", icon: threejs },
+  { name: "SQL", icon: mySQL },
+  // { name: "Three JS", icon: threejs },
   { name: "git", icon: git },
 ];
 
 export const experiences = [
   {
-    title: "AI/ML Intern",
-    company_name: "EduSkill Foundation | AWS Academy | AICTE",
-    icon: eduskill,
+    title: "Assistant Programmer",
+    company_name: "Labour Department, Govt of Karnataka",
+    icon: LD,
     iconBg: "#161329",
-    date: "Sep 2023 - Nov 2023",
+    date: "April 2023 - Present",
     points: [
-      "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-      "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+      "Department Software Management: Responsible for the efficient management of the Karnataka Building and Other Construction Workers' Welfare Board (KBOCWWB) software to ensure seamless operations.",
+      "Software Development and Implementation for Registration and Schemes: Collaborated closely with the outsourced vendor Global INC team for the successful front-end development and implementation of the KBOCWWB software. This effort led to the successful registration of 5 Million users and the provision of benefits from 12 different Govt schemes to the registered users.",
+      "Cess Collection Software Development and Implementation: Teamed up with the outsourced vendor EpicMinds IT Pvt. Ltd. to develop the BOCWB cess collection software, designed to collec approximately 555 Crores of cess annually"
     ],
   },
   {
-    title: "Mathwork Ai Virtual Intern",
-    company_name: "Mathwork | AICTE",
-    icon: mathwork,
+    title: "Project Intern",
+    company_name: "Annu Tech Solutions",
+    icon: ATS,
     iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
+    date: "March 2022 - June 2022",
     points: [
-      "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
-      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
-      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
+      "Trained on technologies like Html, CSS, Bootstrap, Javascript, SQLite, and Flask.",
+      "Worked on real time project called “Food Supply Chain Management System”.",
     ],
   },
   {
-    title: "Artificial Intelligence Intern",
-    company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
-    icon: edunet,
+    title: "Freelancer",
+    company_name: "",
+    icon: GWT,
     iconBg: "#161329",
-    date: "June 2023 - July 2023",
+    date: "December 2022 - March 2023",
     points: [
-      "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
-      "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
-      "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
+      "ABCD ",
+      " WXYZ",
     ],
   },
 ];
 
 export const projects = [
   {
-    name: "WeatherPedia",
+    name: "Gateway World Tour",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
+      "As a freelance project, developed a web application for Gateway World Tour, a travel agency, enabling users to book travel arrangements online. The application is hosted on GoDaddy. This application will give you a responsive user experience.",
     tags: [
+      { name: "Flask", color: "pink-text-gradient" },
       { name: "Javascript", color: "blue-text-gradient" },
       { name: "HTML", color: "green-text-gradient" },
       { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
-      { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
+      { name: "CSS", color: "pink-text-gradient" },
+      { name: "Sqlite 3", color: "pink-text-gradient" },
     ],
-    image: weatherpedia,
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
+    image: GATEWAY,
+    source_code_link: "https://www.gatewayworldtour.com/tours",
   },
   {
-    name: "Terminal Like Portfolio Website",
+    name: "Food Ordering App",
     description:
-      "A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.",
+      "A user-friendly food ordering app that allows customers to browse menus, place orders, and track deliveries in real-time. Designed for convenience, it streamlines the entire food ordering process from selection to doorstep delivery.",
     tags: [
-      { name: "HTML", color: "blue-text-gradient" },
-      { name: "css", color: "green-text-gradient" },
+      { name: "ReactJS", color: "blue-text-gradient" },
+      { name: "Tailwind CSS", color: "blue-text-gradient" },
+      { name: "Node JS", color: "blue-text-gradient" },
+      { name: "Redux", color: "green-text-gradient" },
       { name: "Javascript", color: "pink-text-gradient" },
     ],
-    image: termpw,
-    source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
+    image: FOOD,
+    source_code_link: "https://github.com/Mallikarjun1540/Food_Court_App",
   },
   {
-    name: "Mental Health Fitness Tracker",
+    name: "Daily News App (NewsMonkey)",
     description:
-      "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
+      "NewsMonkey - its an online news application where you can see day to day updated news. It fetches the top news from different online sources. ",
     tags: [
-      { name: "Machine Learning", color: "blue-text-gradient" },
-      { name: "Jupyter Notebook", color: "green-text-gradient" },
-      { name: "Regression Algorithms", color: "pink-text-gradient" },
+      { name: "ReactJS", color: "blue-text-gradient" },
+      { name: "Tailwind CSS", color: "blue-text-gradient" },
+      { name: "css", color: "green-text-gradient" },
+      { name: "Javascript", color: "pink-text-gradient" },
+      { name: "Fetching Daily News Using News API", color: "blue-text-gradient" },
     ],
-    image: mhft,
+    image: NEWSAPP,
+    source_code_link: "https://github.com/Mallikarjun1540/NewsMonkey",
+  },
+  {
+    name: "Tech Quiz",
+    description:
+      "Tech Quiz is an online quiz app designed to help users prepare for technical interviews. It offers topic-wise quizzes on programming, data structures, algorithms, and more. With real-time scoring and feedback, it provides an engaging and effective learning experience.",
+    tags: [
+      { name: "ReactJS", color: "blue-text-gradient" },
+      { name: "Tailwind CSS", color: "blue-text-gradient" },
+      { name: "Javascript", color: "pink-text-gradient" },
+    ],
+    image: TECHQUIZ,
     source_code_link:
-      "https://github.com/lohitkolluri/mental_health_fitness_tracker",
+      "https://github.com/Mallikarjun1540/React-Tech-Quiz",
   },
   {
-    name: "PayloadMaster",
+    name: "XOXO Application (X-O-X Game)",
     description:
-      "Tool to automate payload creation using the Metasploit framework",
+      "XOXO is a tic-tac-toe game built with React, featuring interactive gameplay and real-time winner detection. It showcases React hooks, state management, and responsive UI design.",
     tags: [
-      { name: "shell", color: "blue-text-gradient" },
+      { name: "ReactJS", color: "blue-text-gradient" },
+      { name: "Tailwind CSS", color: "blue-text-gradient" },
+      { name: "Javascript", color: "pink-text-gradient" },
     ],
-    image: payloadmaster,
-    source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
+    image: XOXO,
+    source_code_link: "https://github.com/Mallikarjun1540/Tic-Tac-Toe-React-Game",
   },
   {
-    name: "CompileVortex",
+    name: "Investment Calculater",
     description:
-      "Tool to automate payload creation using the Metasploit framework",
+      "An interactive Investment Calculator built using React to help users estimate returns based on inputs like amount, rate, and duration. It features dynamic updates and a responsive UI for a smooth user experience. Designed with reusable components and clean code structure.",
     tags: [
       { name: "Javascript", color: "blue-text-gradient" },
       { name: "CSS", color: "green-text-gradient" },
       { name: "HTML", color: "pink-text-gradient" },
     ],
-    image: CompileVortex,
-    source_code_link: "https://github.com/lohitkolluri/CompileVortex",
+    image: INVESTMENTCALCULATER,
+    source_code_link: "https://github.com/Mallikarjun1540/Investment-Calculator",
   },
   {
-    name: "Sketcher",
+    name: "PlacePicker",
     description:
-      "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
+      "A Place Picker app built with React that requests the user's location to display nearby places. It helps users quickly find and sort locations based on proximity",
     tags: [
-      { name: "OpenCV", color: "blue-text-gradient" },
-      { name: "Matplotlib", color: "green-text-gradient" },
-      { name: "Python", color: "pink-text-gradient" },
+      { name: "Javascript", color: "blue-text-gradient" },
+      { name: "CSS", color: "green-text-gradient" },
+      { name: "HTML", color: "pink-text-gradient" },
+      { name: "User's Location to sort the places", color: "pink-text-gradient" },
+
     ],
 
-    image: sketcher,
-    source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
+    image: PLACEPICKER,
+    source_code_link: "https://github.com/Mallikarjun1540/Placepicker-ReactApp",
   },
 ];
