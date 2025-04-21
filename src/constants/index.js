@@ -86,7 +86,7 @@ export const experiences = [
     iconBg: "#161329",
     date: "December 2022 - March 2023",
     points: [
-      "ABCD ",
+      "a ",
       " WXYZ",
     ],
   },
